@@ -8,7 +8,8 @@ Site : https://reactdatepicker.com/
 
 Adding bootstrap : 
 > npm install bootstrap --save
-
+> npm install react-bootstrap bootstrap
+> npm install --save reactstrap react react-dom
 Adiing moment : 
 > npm install moment --save
 
