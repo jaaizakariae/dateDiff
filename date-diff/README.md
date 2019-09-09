@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Implementing the date picker
 React Datepicker install : 
 > npm install react-datepicker --save
+Site : https://reactdatepicker.com/
 
 Adding bootstrap : 
 > npm install bootstrap --save
