@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Implementing the date picker
+React Datepicker install : 
+> npm install react-datepicker --save
+
+Adding bootstrap : 
+> npm install bootstrap --save
+
+Adiing moment : 
+> npm install moment --save
+
 ## Available Scripts
 
 In the project directory, you can run:
