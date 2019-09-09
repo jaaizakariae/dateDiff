@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# DateDiff
+it's a small projects that illustrate the use of react 16.9 with hooks.
+It's about calculating the number of days between two dates.
 
 ## Implementing the date picker
 React Datepicker install : 
