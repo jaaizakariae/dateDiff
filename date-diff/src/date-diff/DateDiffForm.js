@@ -4,16 +4,27 @@ import DatePicker from 'react-datepicker';
 import { Button } from 'reactstrap';
 import { calculateDiffBtwnDates, isEmpty } from '../Utils';
 
+/**
+ * Component that calculate the number of days between two dates
+ */
 const DateDiffForm = () => {
   const [errors, setErrors] = useState({});
   const [diffDate, setDiffDate] = useState(0);
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
+  // To Handle a form submit
   const handleSubmit = (event) => {
+    // To prevent the submit of the form
     if (event) event.preventDefault();
+
+    // Getting the result from validation process
     var result = validate(startDate, endDate);
+
+    // Set the error state with errors
     setErrors(result);
+
+    // if no errors then calculate otherwise just show 0
     if (isEmpty(result)) {
       setDiffDate(calculateDiffBtwnDates(startDate, endDate))
     } else {
@@ -24,7 +35,7 @@ const DateDiffForm = () => {
     <div className="card">
       <div className="card-header">
         Diffrence date APP
-         </div>
+      </div>
       <div className="card-body">
         <div className="container">
           <div className="column is-4 is-offset-4">
